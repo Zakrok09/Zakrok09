@@ -32,9 +32,9 @@ My name is ***classified*** but you can call me Cairo. I'm a ***classified*** ye
 
 - Creator of the web app **Crowd Density Estimator**, a project made by **Praxidike** that has won **🥇First place** in:
 
-  - **Hackathon** "AI for City"
-  - **Hackathon** NASA Space Apps Ruse
-  - Stoicho's Competition
+  - 🤖 **Hackathon** "AI for City"
+  - 🚀 **Hackathon** NASA Space Apps Ruse
+  - 💩 Stoicho's Competition
 
 - Creator of the web app **Helti**, a project made by 2 of **Praxidike**'s members that is now participating in NOIT (National Olympiad of IT)
 

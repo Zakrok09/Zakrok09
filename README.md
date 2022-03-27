@@ -1,6 +1,6 @@
 ## Hiii! Welcome to my profile! 👋
 
-My name is *insert a name here* but you can call me Cairo. I'm a ***insert integer*** years old:
+My name is ***classified*** but you can call me Cairo. I'm a ***classified*** years old:
 
 - JavaScript enjoyer
 - Member of the "Praxidike"

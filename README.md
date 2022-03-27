@@ -4,7 +4,7 @@
  <img width="190" align='right' src="https://i.imgur.com/DFcjx6d.png">
  </p>
 
-My name is ***classified*** but you can call me Cairo. I'm a ***classified*** years old:
+My name is ***classified*** but you can call me Cairo. I'm ***classified*** years old:
 
 - JavaScript enjoyer
 - Member of the "Praxidike" team

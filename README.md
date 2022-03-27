@@ -1,4 +1,8 @@
-## Hiii! Welcome to my profile! 👋
+# Hiii! Welcome to my profile! 👋
+
+<p>
+ <img width="190" align='right' src="https://i.imgur.com/DFcjx6d.png">
+ </p>
 
 My name is ***classified*** but you can call me Cairo. I'm a ***classified*** years old:
 
@@ -7,12 +11,17 @@ My name is ***classified*** but you can call me Cairo. I'm a ***classified*** ye
 - Full-Stack Developer (2 years of experience)
 - Participant and winner of several competition (on local, national and global level)
 
+Some statements I will leave right here:
+
+- Raven from Teen Titans GO is the best. 💜
+- I love purple 💜
+
  ---
  <p>
  <img width="160" align='right' src="https://i.imgur.com/Ek5IE2A.png">
  </p>
 
-### About Praxidike
+## About Praxidike
 
 **Praxidike** is an IT team with great experience and knowledge in AI and Web Development. We take details and desires into consideration and finalize a covet project. We excel in working with passion. We excel in pursuing self-improvement.
 
@@ -45,8 +54,16 @@ My name is ***classified*** but you can call me Cairo. I'm a ***classified*** ye
 - **Project Management:** Git (incl. GitHub), Trello, Clickup
 - **Languages:** Bulgarian (native), English
 
-<p align='right'>v2</p>
+## Likes
+
+- **act**
 
 ```c
 𝙞𝙛 (𝙘𝙤𝙢𝙥𝙡𝙖𝙞𝙣𝙞𝙣𝙜 == 𝙩𝙧𝙪𝙚) . . . {𝙖𝙘𝙝𝙞𝙚𝙫𝙖𝙗𝙞𝙡𝙞𝙩𝙮 = 𝙛𝙖𝙡𝙨𝙚}
+```
+
+```c
+Amor et melle et felle est fecundissimus. 
+
+Solum cum sponte immatura es, magna consequi potes.
 ```

@@ -46,3 +46,7 @@ My name is *insert a name here* but you can call me Cairo. I'm a ***insert integ
 - **Languages:** Bulgarian (native), English
 
 <p align='right'>v2</p>
+
+```c
+𝙞𝙛 (𝙘𝙤𝙢𝙥𝙡𝙖𝙞𝙣𝙞𝙣𝙜 == 𝙩𝙧𝙪𝙚) . . . {𝙖𝙘𝙝𝙞𝙚𝙫𝙖𝙗𝙞𝙡𝙞𝙩𝙮 = 𝙛𝙖𝙡𝙨𝙚}
+```

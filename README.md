@@ -17,9 +17,6 @@ Some statements I will leave right here:
 - I love purple 💜
 
  ---
- <p>
- <img width="160" align='right' src="https://i.imgur.com/Ek5IE2A.png">
- </p>
 
 ## About Praxidike
 

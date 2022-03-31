@@ -15,7 +15,7 @@ Some statements I will leave right here:
 
 - Raven from Teen Titans GO is the best. 💜
 - I love purple 💜
-- must read Hristo Smirnenski - (Tale of the stairs) (https://www.slovo.bg/showwork.php3?AuID=386&WorkID=13571&Level=1)
+- must read Hristo Smirnenski - [Tale of the stairs](https://www.slovo.bg/showwork.php3?AuID=386&WorkID=13571&Level=1)
 
  ---
 

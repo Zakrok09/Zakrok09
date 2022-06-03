@@ -43,11 +43,14 @@ Some statements I will leave right here:
   - 🚀 **Hackathon** NASA Space Apps Ruse
   - 💩 Stoicho's Competition
 
-- Creator of the web app **Helti**, a project made by 2 of **Praxidike**'s members that is now participating in NOIT (National Olympiad of IT)
+- Creator of the web app **Helti**, a project made by **Praxidike** that has won **🥇First place** in:
+
+  - 🧑‍⚕️ **Hackathon** "Online Healthcare"
 
 ## Skills
 
 - **Programming Languages:** C++, JavaScript, Python
+- **"Frameworks"** React, Svelte, SvelteKit
 - **IDEs:** Visual Studio Code, PyCharm, Android Studio
 - **Project Management:** Git (incl. GitHub), Trello, Clickup
 - **Languages:** Bulgarian (native), English

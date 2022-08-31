@@ -46,6 +46,8 @@ Some statements I will leave right here:
 - Creator of the web app **Helti**, a project made by **Praxidike** that has won **🥇First place** in:
 
   - 🧑‍⚕️ **Hackathon** "Online Healthcare"
+  
+- Front-end Developer (together w/[ThijsH04](https://github.com/ThijsH04)) of **🔗 RoTUer**
 
 ## Skills
 

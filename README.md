@@ -66,7 +66,7 @@ Some statements I will leave right here:
 ```
 
 ```c
-Amor et melle et felle est fecundissimus. 
+Amor et melle et felle est fecundissimus.
 
-Solum cum sponte immatura es, magna consequi potes.
+Solus cum sis voluntarie immaturus, magna consequi potes.
 ```

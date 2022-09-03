@@ -5,7 +5,7 @@
 # Hiii! Welcome to my profile! 👋
 
 <p>
- <img width="190" align='right' src="https://i.imgur.com/DFcjx6d.png">
+ <img width="190" align='right' src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg">
  </p>
 
 My name is ***classified*** but you can call me Cairo. I'm ***classified*** years old:

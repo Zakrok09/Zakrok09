@@ -1,5 +1,7 @@
 ![githubBanner](https://user-images.githubusercontent.com/31936449/188288746-6b0ede25-b534-458d-b836-2d4c6891e977.png)
 
+[Designed by vectorpouch / Freepik](https://www.freepik.com)
+
 # Hiii! Welcome to my profile! 👋
 
 <p>

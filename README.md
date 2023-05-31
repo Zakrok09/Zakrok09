@@ -8,7 +8,7 @@ My name is ***classified*** but you can call me Cairo. I'm ***classified*** year
 
 - JavaScript enjoyer
 - Member of the "Praxidike" team
-- Full-Stack Developer (2 years of experience)
+- Full-Stack Developer (3 years of experience)
 - Participant and winner of several competitions (on local, national and global level)
 
 Some statements I will leave right here:

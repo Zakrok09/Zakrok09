@@ -6,8 +6,8 @@
 
 My name is ***classified*** but you can call me Cairo. I'm ***classified*** years old:
 
-- JavaScript enjoyer
-- Member of the "Praxidike" team
+- JavaScript enjoyer *now also a TypeScript one*
+- Actual leader of the "Praxidike" team
 - Full-Stack Developer (3 years of experience)
 - Participant and winner of several competitions (on local, national and global level)
 

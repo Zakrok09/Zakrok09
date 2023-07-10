@@ -51,10 +51,10 @@ Some statements I will leave right here:
 
 ## Skills
 
-- **Programming Languages:** C++, JavaScript, Python
-- **"Frameworks"** React, Svelte, SvelteKit
-- **IDEs:** Visual Studio Code, PyCharm, Android Studio
-- **Project Management:** Git (incl. GitHub), Trello, Clickup
+- **Programming Languages:** C++, JavaScript, Python, TypeScript
+- **"Frameworks":** Svelte, SvelteKit
+- **IDEs:** WebStorm, Visual Studio Code
+- **Project Management:** Git (incl. GitHub), Trello, Asana
 - **Languages:** Bulgarian (native), English
 
 ## Likes

@@ -1,4 +1,4 @@
-# Hiii! Welcome to my profile! 👋
+# Comms established. Welcome to my profile! 👋
 
 <p>
  <img width="190" align='right' src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg">

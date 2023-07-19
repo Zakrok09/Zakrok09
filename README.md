@@ -4,12 +4,14 @@
  <img width="190" align='right' src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg">
  </p>
 
-My name is ***classified*** but you can call me Cairo. I'm ***classified*** years old:
+My name is ***classified*** but you can call me Cairo. I'm ***classified*** years old. I am a:
 
 - JavaScript enjoyer *now also a TypeScript one*
 - Actual leader of the "Praxidike" team
 - Full-Stack Developer (3 years of experience)
+- Web Designer
 - Participant and winner of several competitions (on local, national and global level)
+- Contributor to [Andy](https://github.com/SERG-Delft/andy)
 
 Some statements I will leave right here:
 
@@ -51,11 +53,11 @@ Some statements I will leave right here:
 
 ## Skills
 
-- **Programming Languages:** C++, JavaScript, Python, TypeScript
+- **Programming Languages:** JavaScript, TypeScript, Java
 - **"Frameworks":** Svelte, SvelteKit
-- **IDEs:** WebStorm, Visual Studio Code
+- **IDEs:** WebStorm, IntelliJ
 - **Project Management:** Git (incl. GitHub), Trello, Asana
-- **Languages:** Bulgarian (native), English
+- **Languages:** Bulgarian (native), English (C1), South Slavic Languages (conversational), Russian (A2)
 
 ## Likes
 

@@ -12,6 +12,8 @@ My name is ***classified*** but you can call me Cairo. I'm ***classified*** year
 - Web Designer
 - Participant and winner of several competitions (on local, national and global level)
 - Contributor to [Andy](https://github.com/SERG-Delft/andy)
+- TU Delft CSE Student - Year 2
+- Java user
 
 Some statements I will leave right here:
 

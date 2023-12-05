@@ -55,18 +55,18 @@ Some statements I will leave right here:
 
 ## Skills
 
-- **Programming Languages:** JavaScript, TypeScript, Java
-- **"Frameworks":** Svelte, SvelteKit
+- **Programming Languages:** JavaScript, TypeScript, Java, C, C++, Python
+- **"Frameworks":** Svelte, SvelteKit, OpenGL
 - **IDEs:** WebStorm, IntelliJ
-- **Project Management:** Git (incl. GitHub), Trello, Asana
+- **Project Management:** Git (incl. GitHub), GitLab
 - **Languages:** Bulgarian (native), English (C1), South Slavic Languages (conversational), Russian (A2)
 
 ## Likes
 
 - **act**
 
-```c
-𝙞𝙛 (𝙘𝙤𝙢𝙥𝙡𝙖𝙞𝙣𝙞𝙣𝙜 == 𝙩𝙧𝙪𝙚) . . . {𝙖𝙘𝙝𝙞𝙚𝙫𝙖𝙗𝙞𝙡𝙞𝙩𝙮 = 𝙛𝙖𝙡𝙨𝙚}
+```ts
+𝙞𝙛 (𝙘𝙤𝙢𝙥𝙡𝙖𝙞𝙣𝙞𝙣𝙜 === 𝙩𝙧𝙪𝙚) . . . {𝙖𝙘𝙝𝙞𝙚𝙫𝙖𝙗𝙞𝙡𝙞𝙩𝙮 = 𝙛𝙖𝙡𝙨𝙚}
 ```
 
 ```c

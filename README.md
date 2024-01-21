@@ -23,6 +23,19 @@ Some statements I will leave right here:
 
  ---
 
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=zakrok09&show_icons=true&theme=dark"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=zakrok09&show_icons=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-readme-stats.vercel.app/api?username=zakrok09&show_icons=true" />
+</picture>
+
+
 ## About Praxidike
 
 **Praxidike** is an IT team with great experience and knowledge in AI and Web Development. We take details and desires into consideration and finalize a covet project. We excel in working with passion. We excel in pursuing self-improvement.

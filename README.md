@@ -4,7 +4,7 @@
  <img width="190" align='right' src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg">
  </p>
 
-My name is ***classified*** but you can call me Cairo. I'm ***classified*** years old. I am a:
+My name is Kiril Panayotov. I'm 20 years old. I am a:
 
 - JavaScript enjoyer *now also a TypeScript one*
 - Actual leader of the "Praxidike" team

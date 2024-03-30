@@ -4,6 +4,8 @@
  <img width="190" align='right' src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg">
  </p>
 
+email: [contact@zakrok.dev](mailto::contact@zakrok.dev)
+
 My name is Kiril Panayotov. I'm 20 years old. I am a:
 
 - JavaScript enjoyer *now also a TypeScript one*

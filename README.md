@@ -10,11 +10,14 @@ My name is Kiril Panayotov. I'm 20 years old. I am a:
 
 - JavaScript enjoyer *now also a TypeScript one*
 - Actual leader of the "Praxidike" team
-- Full-Stack Developer (3 years of experience)
-- Web Designer
+- Front-end Developer (3 years of experience)
+- UX/UI Designer
 - Participant and winner of several competitions (on local, national and global level)
 - Contributor to [Andy](https://github.com/SERG-Delft/andy)
-- TU Delft CSE Student - Year 2
+- Front-end developer at Delft Hyperloop
+- TU Delft CSE Honours Student - Year 2
+- QA Enthusiast 
+- Research "Technical Debt analysis in the era of AI"
 - Java, Scala user
 
 Some statements I will leave right here:

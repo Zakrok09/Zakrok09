@@ -13,7 +13,9 @@ My name is Kiril Panayotov. I'm 20 years old. I am a:
 - Front-end Developer (3 years of experience)
 - UX/UI Designer
 - Participant and winner of several competitions (on local, national and global level)
-- Contributor to [Andy](https://github.com/SERG-Delft/andy)
+- Contributor to: 
+   - [Andy](https://github.com/SERG-Delft/andy) - added several checks and tests
+   - [uplot-wrappers](https://github.com/skalinichev/uplot-wrappers) - created the Svelte wrapper for uPlot
 - Front-end developer at Delft Hyperloop
 - TU Delft CSE Honours Student - Year 2
 - QA Enthusiast 

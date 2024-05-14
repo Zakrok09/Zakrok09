@@ -6,21 +6,23 @@
 
 email: [contact@zakrok.dev](mailto::contact@zakrok.dev)
 
-My name is Kiril Panayotov. I'm 20 years old. I am a:
+My name is Kiril Panayotov. I'm 20 years old. I am:
 
-- JavaScript enjoyer *now also a TypeScript one*
-- Actual leader of the "Praxidike" team
-- Front-end Developer (3 years of experience)
-- UX/UI Designer
-- Participant and winner of several competitions (on local, national and global level)
+- TU Delft CSE Honours Student - Year 2
+- Currently doing academic research on:
+   - "Technical Debt analysis in the era of AI"
+- Front-end Developer:
+   - Developed Delft Hyperloop's GUI
+   - Developed the [website for Cargommaters](https://cargo-matters.com/en)
 - Contributor to: 
    - [Andy](https://github.com/SERG-Delft/andy) - added several checks and tests
    - [uplot-wrappers](https://github.com/skalinichev/uplot-wrappers) - created the Svelte wrapper for uPlot
-- Front-end developer at Delft Hyperloop
-- TU Delft CSE Honours Student - Year 2
-- QA Enthusiast 
-- Research "Technical Debt analysis in the era of AI"
-- Java, Scala user
+- QA Enthusiast
+- Knowledgable of the programming languages:
+   - Java, Scala
+   - JavaScript, TypeScript...
+- Participant and winner of several competitions (on local, national and global level)
+- The actual leader of the Team Praxidike
 
 Some statements I will leave right here:
 

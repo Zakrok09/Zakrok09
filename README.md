@@ -12,16 +12,14 @@ My name is Kiril Panayotov. I'm 20 years old. I am:
 - Currently doing academic research on:
    - "Technical Debt analysis in the era of AI"
 - Front-end Developer:
-   - Developed Delft Hyperloop's GUI
+   - Developed Delft Hyperloop's Ground Station GUI
    - Developed the [website for Cargommaters](https://cargo-matters.com/en)
+   - Developed the CAIT (Community for AI Teachers) Forum
 - Contributor to: 
    - [Andy](https://github.com/SERG-Delft/andy) - added several checks and tests
    - [uplot-wrappers](https://github.com/skalinichev/uplot-wrappers) - created the Svelte wrapper for uPlot
 - QA Enthusiast
-- Knowledgable of the programming languages:
-   - Java, Scala
-   - JavaScript, TypeScript...
-- Participant and winner of several competitions (on local, national and global level)
+- Participant and winner of several hackathons (on local, national and global level)
 - The actual leader of the Team Praxidike
 
 Some statements I will leave right here:
@@ -57,17 +55,20 @@ Some statements I will leave right here:
 
 ## Projects & Activity
 
-### **As an JavaScript dev**
+### **As a TypeScript dev**
 
 - Developed Kokicoin Discord Bot: [Repo](https://github.com/Zakrok09/kokicoin).
 
-### As a Full-Stack dev
+### As a Full-Stack/Front-end dev
+
+- Developer of [Delft Hyperloop](https://www.delfthyperloop.nl/) Grand Station (pod control) GUI.
+
+- Full-stack developer of CAIT (Community for AI Teachers) within the university of TU Delft.
 
 - Creator of the web app **Crowd Density Estimator**, a project made by **Praxidike** that has won **🥇First place** in:
 
   - 🤖 **Hackathon** "AI for City"
   - 🚀 **Hackathon** NASA Space Apps Ruse
-  - 💩 Stoicho's Competition
 
 - Creator of the web app **Helti**, a project made by **Praxidike** that has won **🥇First place** in:
 
@@ -75,9 +76,14 @@ Some statements I will leave right here:
   
 - Front-end Developer (together w/[ThijsH04](https://github.com/ThijsH04)) of **🔗 RoTUer**
 
+### Smaller projects
+
+- Developed depth of field, BVH data strcutrues and environment maps as part of a Ray-Tracer group project
+- Developed a parser, desugarred and interpreter for the Parret Programming Language.
+
 ## Skills
 
-- **Programming Languages:** JavaScript, TypeScript, Java, C, C++, Python
+- **Programming Languages:** JavaScript, TypeScript, Java, C, C++, Scala etc.
 - **"Frameworks":** Svelte, SvelteKit, OpenGL
 - **IDEs:** WebStorm, IntelliJ
 - **Project Management:** Git (incl. GitHub), GitLab

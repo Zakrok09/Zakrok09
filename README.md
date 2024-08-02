@@ -9,7 +9,7 @@ email: [contact@zakrok.dev](mailto::contact@zakrok.dev)
 My name is Kiril Panayotov. I'm 20 years old. I am:
 
 - TU Delft CSE Honours Student - Year 2
-- Currently doing academic research on:
+- Currently, doing academic research on:
    - "Technical Debt analysis in the era of AI"
 - Front-end Developer:
    - Developed Delft Hyperloop's Ground Station GUI
@@ -42,6 +42,10 @@ Some statements I will leave right here:
   <img src="https://github-readme-stats.vercel.app/api?username=zakrok09&show_icons=true" />
 </picture>
 
+
+## My NixOS configuration
+
+Browse my nixos configuration that's included in this repo under the [nixos_config](./nixos_config) subfolder.
 
 ## About Praxidike
 

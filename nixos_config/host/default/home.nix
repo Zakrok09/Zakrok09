@@ -21,7 +21,15 @@
         chromium
         spotify
         xclip
+            (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
     ];
+
+    fonts.fontconfig = {
+        enable = true;
+        defaultFonts = {
+            monospace = [ "JetBrainsMono" ];
+        };
+    };
 
     home.sessionVariables = {
         # EDITOR = "emacs";

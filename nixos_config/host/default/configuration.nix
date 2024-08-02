@@ -7,6 +7,7 @@
         [
             ./hardware-configuration.nix
             inputs.home-manager.nixosModules.default
+            ../../modules/nixos/nvidia.nix
         ];
 
     # FLAKES
@@ -120,9 +121,6 @@
         git
         direnv
         neofetch
-
-        # fonts
-        jetbrains-mono
     ];
 
     system.stateVersion = "24.05";

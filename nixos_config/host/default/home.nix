@@ -21,7 +21,8 @@
         chromium
         spotify
         xclip
-            (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+	discord
+        (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
     ];
 
     fonts.fontconfig = {
@@ -29,10 +30,6 @@
         defaultFonts = {
             monospace = [ "JetBrainsMono" ];
         };
-    };
-
-    home.sessionVariables = {
-        # EDITOR = "emacs";
     };
   
     programs = {
@@ -46,9 +43,10 @@
             enable = true;
             shellAliases = {
                 ll = "ls -l";
-                rebuild = "sudo nixos-rebuild switch --flake ./#myNixos";
-                dotenv = "export $(cat .env | xargs)";
+                rebuild = "sudo nixos-rebuild switch --flake ~/zakrok_repo/nixos_config/flake.nix#default";
                 dockerb = "docker-compose up -d --build";
+                cds = "cd ~/zakrok_repo/nixos_config";
+                clear_garbage = "";
             };
         };
 

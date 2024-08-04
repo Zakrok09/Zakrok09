@@ -8,6 +8,7 @@
             ./hardware-configuration.nix
             inputs.home-manager.nixosModules.default
             ../../modules/nixos/nvidia.nix
+            ../../modules/nixos/mount-smb.nix
         ];
 
     # FLAKES
@@ -34,7 +35,9 @@
 
 
     # Bootloader.
-    boot.loader.systemd-boot.enable = true;
+    boot.loader.systemd-boot = {
+        enable = true;
+    };
     boot.loader.efi.canTouchEfiVariables = true;
 
     # Networking
@@ -85,17 +88,11 @@
         packages = with pkgs; [
             #unstable
             jetbrains.webstorm
-            obsidian
             jetbrains-toolbox
+            obsidian
             openssl
             telegram-desktop
             protonvpn-gui
-            rustc
-            rustup
-            cargo
-            docker-compose
-            doctl
-            postgresql
 
             # stable
             stable.librewolf
@@ -111,6 +108,14 @@
             "eccyboo" = import ./home.nix;
         };
     };
+
+    # STEAM
+	programs.steam = {
+        enable = true;
+        remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
+        dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
+        localNetworkGameTransfers.openFirewall = true; # Open ports in the firewall for Steam Local Network Game Transfers
+	};
 
     # Install firefox.
     programs.firefox.enable = true;

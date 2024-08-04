@@ -9,7 +9,7 @@
     };
 
     imports = [
-        ../../modules/home-manager/hyprland.nix
+        #../../modules/home-manager/hyprland.nix
     ];
 
     home.packages = with stable; [
@@ -21,7 +21,7 @@
         chromium
         spotify
         xclip
-	discord
+	    discord
         (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
     ];
 

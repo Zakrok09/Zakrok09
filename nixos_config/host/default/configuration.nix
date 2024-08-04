@@ -9,6 +9,7 @@
             inputs.home-manager.nixosModules.default
             ../../modules/nixos/nvidia.nix
             ../../modules/nixos/mount-smb.nix
+            ../../modules/nixos/gnome.nix
         ];
 
     # FLAKES
@@ -49,7 +50,13 @@
     i18n.defaultLocale = "en_US.UTF-8";
 
     # Enable the X11 windowing system.
-    services.xserver.enable = true;
+    services.xserver = {
+        enable = true;
+        xkb = {
+            layout = "us";
+            variant = "";
+        };
+    };
 
     # Enable Docker
     virtualisation.docker.rootless = {
@@ -57,15 +64,7 @@
         setSocketVariable = true;
     };
 
-    # Enable the GNOME Desktop Environment.
-    services.xserver.displayManager.gdm.enable = true;
-    services.xserver.desktopManager.gnome.enable = true;
-
     # Configure keymap in X11
-    services.xserver.xkb = {
-        layout = "us";
-        variant = "";
-    };
 
     # Enable CUPS to print documents.
     services.printing.enable = true;

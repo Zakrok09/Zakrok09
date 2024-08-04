@@ -13,15 +13,21 @@
     ];
 
     home.packages = with stable; [
-        #unstable
-        networkmanagerapplet
-        waybar
-        signal-desktop
-        tcpdump
-        chromium
+        # unstable
+        pkgs.alacritty
+
+        # non-work apps
         spotify
+        signal-desktop
+        discord
+
+        # utils
+        tcpdump
         xclip
-	    discord
+
+	    # browsers
+	    chromium
+
         (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
     ];
 

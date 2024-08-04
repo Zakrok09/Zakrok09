@@ -13,7 +13,8 @@
     config = {
         home.packages = with pkgs; [
             # hyprland
-            alacritty
+            networkmanagerapplet
+            waybar
             rofi-wayland
             dunst
             libnotify

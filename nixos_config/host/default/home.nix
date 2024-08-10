@@ -15,6 +15,7 @@
     home.packages = with stable; [
         # unstable
         pkgs.alacritty
+	pkgs.vscodium
 
         # non-work apps
         spotify
@@ -41,7 +42,7 @@
     programs = {
         direnv = {
             enable = true;
-            enableBashIntegration = true; # see note on other shells below
+            enableBashIntegration = true;
             nix-direnv.enable = true;
         };
 

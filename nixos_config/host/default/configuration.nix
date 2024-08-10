@@ -87,11 +87,13 @@
         packages = with pkgs; [
             #unstable
             jetbrains.webstorm
+            jetbrains.idea-ultimate
             jetbrains-toolbox
             obsidian
             openssl
             telegram-desktop
             protonvpn-gui
+	    slack
 
             # stable
             stable.librewolf

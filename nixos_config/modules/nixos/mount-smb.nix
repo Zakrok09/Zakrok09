@@ -13,7 +13,8 @@
                 # username=<USERNAME>
                 # domain=<DOMAIN>
                 # password=<PASSWORD>
-            "x-systemd.automount,noauto,x-systemd.idle-timeout=60,x-systemd.device-timeout=5s,x-systemd.mount-timeout=5s"
+            "x-systemd.automount,noauto,x-systemd.idle-timeout=60,x-systemd.device-timeout=5s,x-systemd.mount-timeout=5s,user,users"
+	    "uid=1000,gid=100"
         ];
     };
 }

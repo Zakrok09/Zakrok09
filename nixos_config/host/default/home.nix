@@ -21,12 +21,12 @@
         signal-desktop
         discord
 
-        # utils
+        # console utils
         tcpdump
         xclip
 
-	    # browsers
-	    chromium
+	# browsers
+	chromium
 
         (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
     ];

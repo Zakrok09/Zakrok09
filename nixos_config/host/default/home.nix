@@ -10,12 +10,13 @@
 
     imports = [
         #../../modules/home-manager/hyprland.nix
+        ../../modules/home-manager/gnome-manage.nix
     ];
 
     home.packages = with stable; [
         # unstable
         pkgs.alacritty
-	pkgs.vscodium
+	    pkgs.vscodium
 
         # non-work apps
         spotify

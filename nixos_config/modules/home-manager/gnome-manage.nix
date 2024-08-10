@@ -1,5 +1,5 @@
 {
-    config, pkgs, stable, lib, inputs
+    config, pkgs, stable, lib, inputs, ...
 }: {
     dconf = {
         enable = true;
@@ -9,6 +9,7 @@
                 enabled-extensions = [
                     pkgs.gnomeExtensions.vitals.extensionUuid
                     pkgs.gnomeExtensions.clipboard-indicator.extensionUuid
+                    pkgs.gnomeExtensions.appindicator.extensionUuid
                 ];
             };
 

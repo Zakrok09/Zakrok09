@@ -10,6 +10,7 @@
 
     imports = [
         ../../modules/home-manager/gnome-manage.nix
+        ../../modules/home-manager/alacritty.nix
     ];
 
     home.packages = with stable; [

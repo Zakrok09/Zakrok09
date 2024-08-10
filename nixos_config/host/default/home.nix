@@ -9,13 +9,11 @@
     };
 
     imports = [
-        #../../modules/home-manager/hyprland.nix
         ../../modules/home-manager/gnome-manage.nix
     ];
 
     home.packages = with stable; [
         # unstable
-        pkgs.alacritty
 	    pkgs.vscodium
 
         # non-work apps
@@ -27,8 +25,8 @@
         tcpdump
         xclip
 
-	# browsers
-	chromium
+	    # browsers
+	    chromium
 
         (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
     ];

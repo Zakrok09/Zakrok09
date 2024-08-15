@@ -86,11 +86,9 @@
             jetbrains.idea-ultimate
 	        jetbrains.rust-rover
             jetbrains-toolbox
-            obsidian
-            openssl
-            telegram-desktop
+            
             protonvpn-gui
-	        slack
+            piper
 
             # stable
             stable.librewolf
@@ -124,6 +122,7 @@
         git
         direnv
         neofetch
+        openssl
     ];
 
     system.stateVersion = "24.05";

@@ -15,19 +15,33 @@
 
     home.packages = with stable; [
         # unstable
-	    pkgs.vscodium
+        pkgs.vscodium
 
         # non-work apps
         spotify
         signal-desktop
         discord
+        telegram-desktop
+        obsidian
+
+        # rust
+        rustc
+        cargo
 
         # console utils
         tcpdump
         xclip
+        yt-dlp
 
-	    # browsers
-	    chromium
+        # dev tools
+        doctl
+        ngrok
+        
+        # work apps
+        slack
+
+        # browsers
+        chromium
 
         (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
     ];

@@ -57,44 +57,6 @@ Browse my nixos configuration that's included in this repo under the [nixos_conf
 
   ---
 
-## Projects & Activity
-
-### **As a TypeScript dev**
-
-- Developed Kokicoin Discord Bot: [Repo](https://github.com/Zakrok09/kokicoin).
-
-### As a Full-Stack/Front-end dev
-
-- Developer of [Delft Hyperloop](https://www.delfthyperloop.nl/) Grand Station (pod control) GUI.
-
-- Full-stack developer of CAIT (Community for AI Teachers) within the university of TU Delft.
-
-- Creator of the web app **Crowd Density Estimator**, a project made by **Praxidike** that has won **🥇First place** in:
-
-  - 🤖 **Hackathon** "AI for City"
-  - 🚀 **Hackathon** NASA Space Apps Ruse
-
-- Creator of the web app **Helti**, a project made by **Praxidike** that has won **🥇First place** in:
-
-  - 🧑‍⚕️ **Hackathon** "Online Healthcare"
-  
-- Front-end Developer (together w/[ThijsH04](https://github.com/ThijsH04)) of **🔗 RoTUer**
-
-### Smaller projects
-
-- Developed depth of field, BVH data strcutrues and environment maps as part of a Ray-Tracer group project
-- Developed a parser, desugarred and interpreter for the Parret Programming Language.
-
-## Skills
-
-- **Programming Languages:** JavaScript, TypeScript, Java, C, C++, Scala etc.
-- **"Frameworks":** Svelte, SvelteKit, OpenGL
-- **IDEs:** WebStorm, IntelliJ
-- **Project Management:** Git (incl. GitHub), GitLab
-- **Languages:** Bulgarian (native), English (C1), South Slavic Languages (conversational), Russian (A2)
-
-## Likes
-
 - **act**
 
 ```ts

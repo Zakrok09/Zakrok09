@@ -12,20 +12,17 @@ My name is Kiril Panayotov. I'm 20 years old. I am:
 - Currently, doing academic research on:
    - "Technical Debt analysis in the era of AI"
 - Front-end Developer:
-   - Developed Delft Hyperloop's Ground Station GUI
+   - Developed Delft Hyperloop's Ground Station GUI and the [Serpenta Standard](https://github.com/delft-hyperloop/serpenta)
    - Developed the [website for Cargommaters](https://cargo-matters.com/en)
    - Developed the CAIT (Community for AI Teachers) Forum
 - Contributor to: 
    - [Andy](https://github.com/SERG-Delft/andy) - added several checks and tests
    - [uplot-wrappers](https://github.com/skalinichev/uplot-wrappers) - created the Svelte wrapper for uPlot
-- QA Enthusiast
 - Participant and winner of several hackathons (on local, national and global level)
 - The actual leader of the Team Praxidike
 
 Some statements I will leave right here:
 
-- Raven from Teen Titans GO is the best. 💜
-- I love purple 💜
 - must read [Hristo Smirnenski - Tale of the stairs](https://www.slovo.bg/showwork.php3?AuID=386&WorkID=13571&Level=1)
 
  ---

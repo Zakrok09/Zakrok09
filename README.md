@@ -49,17 +49,15 @@ For some of these I have working experience with while others are yet planned to
 
 
 <details>
-<summary>Worked with as a student at TU Delft:</summary>
+<summary>Worked with as a Frontend engineer at Delft hyperloop:</summary>
 
 [![Interests tier 3](https://skillicons.dev/icons?i=java,spring,selenium,sc,c,cpp,py,blender,latex,)](https://skillicons.dev)
 </details>
 
 
-<details>
-<summary>Using for myself and my open-source projects:</summary>
+**Using for myself and my open-source projects:**
 
 [![Interests tier 4](https://skillicons.dev/icons?i=webstorm,supabase,cloudflare,nix,linux,)](https://skillicons.dev)
-</details>
 
 
 **Finds quite interesting/currently learning:**

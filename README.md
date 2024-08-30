@@ -1,20 +1,17 @@
 # Comms established. Welcome to my profile! 👋
 
-<p>
- <img width="190" align='right' src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg">
- </p>
-
 email: [contact@zakrok.dev](mailto::contact@zakrok.dev)
 
-My name is Kiril Panayotov. I'm 20 years old. I am:
+My name is Kiril Panayotov. I'm:
 
+- 20 years old
 - TU Delft CSE Honours Student - Year 3
-- Currently, doing academic research on:
-   - "Technical Debt analysis in the era of AI"
-- Front-end Developer:
+- Currently, doing academic research on: "Technical Debt analysis in the era of AI"
+- Software Engineer:
+   - Former intern at [Manometric](https://www.manometric.nl/en/).
    - Developed Delft Hyperloop's Ground Station GUI and the [Serpenta Standard](https://github.com/delft-hyperloop/serpenta)
+   - Developed the CAIT (Community for AI Teachers) Forum 
    - Developed the [website for Cargommaters](https://cargo-matters.com/en)
-   - Developed the CAIT (Community for AI Teachers) Forum
 - Contributor to: 
    - [Andy](https://github.com/SERG-Delft/andy) - added several checks and tests
    - [uplot-wrappers](https://github.com/skalinichev/uplot-wrappers) - created the Svelte wrapper for uPlot
@@ -23,9 +20,54 @@ My name is Kiril Panayotov. I'm 20 years old. I am:
 
 Some statements I will leave right here:
 
-- must read [Hristo Smirnenski - Tale of the stairs](https://www.slovo.bg/showwork.php3?AuID=386&WorkID=13571&Level=1)
+- must read [Hristo Smirnenski—Tale of the stairs](https://www.slovo.bg/showwork.php3?AuID=386&WorkID=13571&Level=1)
 
- ---
+---
+
+## My NixOS configuration
+
+Browse my nixos configuration included in this repo under the [nixos_config subfolder](./nixos_config).
+
+---
+
+## Interests & tools
+
+As a developer, I find particular interest in the following services. 
+For some of these I have working experience with while others are yet planned to be explored.
+
+<details>
+<summary>Worked with as part of Manometric's internship:</summary>
+
+[![Interests tier 1](https://skillicons.dev/icons?i=ts,react,jest,docker,nodejs,bash,postgres,sentry)](https://skillicons.dev)
+</details>
+
+<details>
+<summary>Worked with as a student at TU Delft:</summary>
+
+[![Interests tier 2](https://skillicons.dev/icons?i=ts,svelte,tauri,rust,wasm,vitest,bash,nix)](https://skillicons.dev)
+</details>
+
+
+<details>
+<summary>Worked with as a student at TU Delft:</summary>
+
+[![Interests tier 3](https://skillicons.dev/icons?i=java,spring,selenium,sc,c,cpp,py,blender,latex,)](https://skillicons.dev)
+</details>
+
+
+<details>
+<summary>Using for myself and my open-source projects:</summary>
+
+[![Interests tier 4](https://skillicons.dev/icons?i=webstorm,supabase,cloudflare,nix,linux,)](https://skillicons.dev)
+</details>
+
+
+**Finds quite interesting/currently learning:**
+
+[![Interests tier 5](https://skillicons.dev/icons?i=rust,haskell,kotlin,vim,wasm,zig,go)](https://skillicons.dev)
+
+
+---
 
 <picture>
   <source
@@ -39,25 +81,16 @@ Some statements I will leave right here:
   <img src="https://github-readme-stats.vercel.app/api?username=zakrok09&show_icons=true" />
 </picture>
 
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=zakrok09&theme=dark" alt="zakrok09" /></p>
 
-## My NixOS configuration
-
-Browse my nixos configuration that's included in this repo under the [nixos_config](./nixos_config) subfolder.
-
-## About Praxidike
-
-**Praxidike** is an IT team with great experience and knowledge in AI and Web Development. We take details and desires into consideration and finalize a covet project. We excel in working with passion. We excel in pursuing self-improvement.
-
-🪐⭐
-
-*Praxidike /prækˈsɪdəkiː/, also known as Jupiter XXVII, is a retrograde irregular satellite of Jupiter.*
-
-  ---
+---
 
 - **act**
 
 ```ts
-𝙞𝙛 (𝙘𝙤𝙢𝙥𝙡𝙖𝙞𝙣𝙞𝙣𝙜 === 𝙩𝙧𝙪𝙚) . . . {𝙖𝙘𝙝𝙞𝙚𝙫𝙖𝙗𝙞𝙡𝙞𝙩𝙮 = 𝙛𝙖𝙡𝙨𝙚}
+𝙞𝙛 (𝙘𝙤𝙢𝙥𝙡𝙖𝙞𝙣𝙞𝙣𝙜 === 𝙩𝙧𝙪𝙚) 
+  𝙖𝙘𝙝𝙞𝙚𝙫𝙖𝙗𝙞𝙡𝙞𝙩𝙮 = 𝙛𝙖𝙡𝙨𝙚;
+  // written sometime between 2017-2020
 ```
 
 ```c

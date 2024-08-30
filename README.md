@@ -42,14 +42,14 @@ For some of these I have working experience with while others are yet planned to
 </details>
 
 <details>
-<summary>Worked with as a student at TU Delft:</summary>
+<summary>Worked with as a Frontend engineer at Delft hyperloop:</summary>
 
 [![Interests tier 2](https://skillicons.dev/icons?i=ts,svelte,tauri,rust,wasm,vitest,bash,nix)](https://skillicons.dev)
 </details>
 
 
 <details>
-<summary>Worked with as a Frontend engineer at Delft hyperloop:</summary>
+<summary>Worked with as a student at TU Delft:</summary>
 
 [![Interests tier 3](https://skillicons.dev/icons?i=java,spring,selenium,sc,c,cpp,py,blender,latex,)](https://skillicons.dev)
 </details>

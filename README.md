@@ -1,26 +1,20 @@
-# Comms established. Welcome to my profile! 👋
+# Comms established.
 
 email: [contact@zakrok.dev](mailto::contact@zakrok.dev)
 
 My name is Kiril Panayotov. I'm:
 
-- 21 years old
 - TU Delft CSE Honours Student - Year 3
-- Currently, doing academic research on: "Technical Debt analysis in the era of AI"
-- Software Engineer:
+- doing academic research on: "Technical Debt analysis in the era of AI"
+- a Software Engineer:
    - Former intern at [Manometric](https://www.manometric.nl/en/).
    - Developed Delft Hyperloop's Ground Station GUI and the [Serpenta Standard](https://github.com/delft-hyperloop/serpenta)
    - Developed the CAIT (Community for AI Teachers) Forum 
    - Developed the [website for Cargommaters](https://cargo-matters.com/en)
-- Contributor to: 
+- a contributor to: 
    - [Andy](https://github.com/SERG-Delft/andy) - added several checks and tests
    - [uplot-wrappers](https://github.com/skalinichev/uplot-wrappers) - created the Svelte wrapper for uPlot
-- Participant and winner of several hackathons (on local, national and global level)
 - The actual leader of the Team Praxidike
-
-Some statements I will leave right here:
-
-- must read [Hristo Smirnenski—Tale of the stairs](https://www.slovo.bg/showwork.php3?AuID=386&WorkID=13571&Level=1)
 
 ---
 
@@ -79,8 +73,6 @@ For some of these I have working experience with while others are yet planned to
   <img src="https://github-readme-stats.vercel.app/api?username=zakrok09&show_icons=true" />
 </picture>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=zakrok09&theme=dark" alt="zakrok09" /></p>
-
 ---
 
 - **act**
@@ -96,3 +88,5 @@ Amor et melle et felle est fecundissimus.
 
 Solus cum sis voluntarie immaturus, magna consequi potes.
 ```
+
+must read [Hristo Smirnenski—Tale of the stairs](https://www.slovo.bg/showwork.php3?AuID=386&WorkID=13571&Level=1)

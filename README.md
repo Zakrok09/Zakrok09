@@ -4,7 +4,7 @@ email: [contact@zakrok.dev](mailto::contact@zakrok.dev)
 
 My name is Kiril Panayotov. I'm:
 
-- 20 years old
+- 21 years old
 - TU Delft CSE Honours Student - Year 3
 - Currently, doing academic research on: "Technical Debt analysis in the era of AI"
 - Software Engineer:

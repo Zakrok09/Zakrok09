@@ -18,13 +18,13 @@ My name is Kiril Panayotov. I'm:
 
 ---
 
-## My NixOS configuration
-
+<details>
+<summary><h2>My NixOS configuration</h2></summary>
 Browse my nixos configuration included in this repo under the [nixos_config subfolder](./nixos_config).
+</details>
+<details>
+<summary><h2>Interests & tools</h2></summary>
 
----
-
-## Interests & tools
 
 As a developer, I find particular interest in the following services. 
 For some of these I have working experience with while others are yet planned to be explored.
@@ -58,35 +58,38 @@ For some of these I have working experience with while others are yet planned to
 
 [![Interests tier 5](https://skillicons.dev/icons?i=rust,haskell,kotlin,vim,wasm,zig,go)](https://skillicons.dev)
 
+</details>
 
 ---
-
-<picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=zakrok09&show_icons=true&theme=dark"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=zakrok09&show_icons=true"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
-  <img src="https://github-readme-stats.vercel.app/api?username=zakrok09&show_icons=true" />
-</picture>
-
----
-
-- **act**
-
-```ts
-𝙞𝙛 (𝙘𝙤𝙢𝙥𝙡𝙖𝙞𝙣𝙞𝙣𝙜 === 𝙩𝙧𝙪𝙚) 
-  𝙖𝙘𝙝𝙞𝙚𝙫𝙖𝙗𝙞𝙡𝙞𝙩𝙮 = 𝙛𝙖𝙡𝙨𝙚;
-  // written sometime between 2017-2020
-```
-
-```c
-Amor et melle et felle est fecundissimus.
-
-Solus cum sis voluntarie immaturus, magna consequi potes.
-```
-
 must read [Hristo Smirnenski—Tale of the stairs](https://www.slovo.bg/showwork.php3?AuID=386&WorkID=13571&Level=1)
+
+<details>
+   <summary>More</summary>
+   <picture>
+     <source
+       srcset="https://github-readme-stats.vercel.app/api?username=zakrok09&show_icons=true&theme=dark"
+       media="(prefers-color-scheme: dark)"
+     />
+     <source
+       srcset="https://github-readme-stats.vercel.app/api?username=zakrok09&show_icons=true"
+       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+     />
+     <img src="https://github-readme-stats.vercel.app/api?username=zakrok09&show_icons=true" />
+   </picture>
+   
+   ---
+   
+   - **act**
+   
+   ```ts
+   𝙞𝙛 (𝙘𝙤𝙢𝙥𝙡𝙖𝙞𝙣𝙞𝙣𝙜 === 𝙩𝙧𝙪𝙚) 
+     𝙖𝙘𝙝𝙞𝙚𝙫𝙖𝙗𝙞𝙡𝙞𝙩𝙮 = 𝙛𝙖𝙡𝙨𝙚;
+     // written sometime between 2017-2020
+   ```
+   
+   ```c
+   Amor et melle et felle est fecundissimus.
+   
+   Solus cum sis voluntarie immaturus, magna consequi potes.
+   ```
+</details>

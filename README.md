@@ -20,7 +20,9 @@ My name is Kiril Panayotov. I'm:
 
 <details>
 <summary><h2>My NixOS configuration</h2></summary>
-Browse my nixos configuration included in this repo under the [nixos_config subfolder](./nixos_config).
+
+   Browse my nixos configuration included in this repo under the [nixos_config subfolder](./nixos_config).
+   
 </details>
 <details>
 <summary><h2>Interests & tools</h2></summary>

@@ -19,18 +19,15 @@ My name is Kiril Panayotov. I'm:
 ---
 
 <details>
-<summary><h2>My NixOS configuration</h2></summary>
+<summary><h4>My NixOS configuration</h4></summary>
 
    Browse my nixos configuration included in this repo under the [nixos_config subfolder](./nixos_config).
    
 </details>
 <details>
-<summary><h2>Interests & tools</h2></summary>
-
-
+<summary><h4>Interests & tools</h4></summary>
 As a developer, I find particular interest in the following services. 
 For some of these I have working experience with while others are yet planned to be explored.
-
 <details>
 <summary>Worked with as part of Manometric's internship:</summary>
 
@@ -55,14 +52,12 @@ For some of these I have working experience with while others are yet planned to
 
 [![Interests tier 4](https://skillicons.dev/icons?i=webstorm,supabase,cloudflare,nix,linux,)](https://skillicons.dev)
 
-
 **Finds quite interesting/currently learning:**
-
 [![Interests tier 5](https://skillicons.dev/icons?i=rust,haskell,kotlin,vim,wasm,zig,go)](https://skillicons.dev)
-
 </details>
 
 ---
+
 must read [Hristo Smirnenski—Tale of the stairs](https://www.slovo.bg/showwork.php3?AuID=386&WorkID=13571&Level=1)
 
 <details>

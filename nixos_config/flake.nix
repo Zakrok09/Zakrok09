@@ -55,7 +55,7 @@
 
                 modules = [
                     ./host/laptop/configuration.nix
-                    inputs.home-manager.nixosModules.laptop
+                    inputs.home-manager.nixosModules.default
                 ];
             };
         };
@@ -70,6 +70,18 @@
                 };
                 modules = [
                     ./host/default/home.nix
+                ];
+            };
+
+            laptop = home-manager.lib.homeManagerConfiguration {
+                specialArgs = {
+                    inherit system;
+                    inherit pkgs;
+                    inherit stable;   # pass it down the function
+                    inherit inputs;
+                };
+                modules = [
+                    ./host/laptop/home.nix
                 ];
             };
         };

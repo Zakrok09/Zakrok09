@@ -6,7 +6,7 @@
         nixpkgs-stable.url = "github:nixos/nixpkgs/nixos-24.05";
 
         home-manager = {
-            url = "github:nix-community/home-manager/release-24.05";
+            url = "github:nix-community/home-manager/release-24.11";
             inputs.nixpkgs.follows = "nixpkgs-stable";
         };
 
@@ -45,19 +45,19 @@
                     inputs.home-manager.nixosModules.default
                 ];
             };
-	    laptop = nixpkgs.lib.nixosSystem {
-	    	specialArgs = {
-		    inherit system;
-		    inherit pkgs;
-		    inherit stable;
-		    inherit inputs;
-		};
+	        laptop = nixpkgs.lib.nixosSystem {
+                specialArgs = {
+                    inherit system;
+                    inherit pkgs;
+                    inherit stable;
+                    inherit inputs;
+                };
 
-		modules = [
-		    ./host/laptop/configuration.nix
-		    inputs.home-manager.nixosModules.laptop
-		];
-	    };
+                modules = [
+                    ./host/laptop/configuration.nix
+                    inputs.home-manager.nixosModules.laptop
+                ];
+            };
         };
 
         homeConfigurations = {

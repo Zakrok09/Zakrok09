@@ -68,6 +68,7 @@
                 dockerb = "docker-compose up -d --build";
                 cds = "cd ~/zakrok_repo/nixos_config";
                 clear_garbage = "";
+                clip = "xclip -sel clip";
             };
         };
 

@@ -12,14 +12,13 @@
 
     config = {
         home.packages = with pkgs; [
-            # hyprland
+#            hyprland
             networkmanagerapplet
             waybar
             rofi-wayland
             dunst
             libnotify
             hyprpaper
-	    kitty
         ];
 
         home.pointerCursor = {
@@ -62,6 +61,7 @@
             enable = true;
 	    package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
 	    xwayland.enable = true;
+	    systemd.enable = true;
 
             settings = {
                 "$mod" = "SUPER";
@@ -71,7 +71,7 @@
                 "exec-once" = [
                     "$terminal"
                     "nm-applet &"
-                    "waybar & hyprpaper & librewolf"
+                    "waybar & hyprpaper"
                 ];
 
                 bindr = [

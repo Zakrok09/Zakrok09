@@ -4,7 +4,6 @@
             ./hardware-configuration.nix
             inputs.home-manager.nixosModules.default
             ../../modules/nixos/nvidia.nix
-            # ../../modules/nixos/mount-smb.nix
             ../../modules/nixos/gnome.nix
         ];
 
@@ -125,5 +124,5 @@
         openssl
     ];
 
-    system.stateVersion = "24.05";
+    system.stateVersion = "24.11";
 }

@@ -5,6 +5,7 @@
             inputs.home-manager.nixosModules.default
             ../../modules/nixos/nvidia.nix
             ../../modules/nixos/gnome.nix
+	    ../../modules/nixos/hyprland.nix
         ];
 
     # FLAKES
@@ -83,7 +84,7 @@
             #unstable
             jetbrains.webstorm
             jetbrains.idea-ultimate
-	        jetbrains.rust-rover
+	    jetbrains.rust-rover
             jetbrains-toolbox
             
             protonvpn-gui

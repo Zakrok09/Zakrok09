@@ -5,7 +5,6 @@
             inputs.home-manager.nixosModules.default
             ../../modules/nixos/nvidia.nix
             ../../modules/nixos/gnome.nix
-	    ../../modules/nixos/hyprland.nix
         ];
 
     # FLAKES

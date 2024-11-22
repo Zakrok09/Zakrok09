@@ -10,7 +10,7 @@
             inputs.nixpkgs.follows = "nixpkgs-stable";
         };
 
-        hyprland.url = "git+https://github.com/hyprwm/Hyprland?submodules=1";
+	hyprland.url = "github:hyprwm/Hyprland";
     };
 
 
@@ -62,18 +62,6 @@
 
         homeConfigurations = {
             eccyboo = home-manager.lib.homeManagerConfiguration {
-                specialArgs = {
-                    inherit system;
-                    inherit pkgs;
-                    inherit stable;   # pass it down the function
-                    inherit inputs;
-                };
-                modules = [
-                    ./host/default/home.nix
-                ];
-            };
-
-            laptop = home-manager.lib.homeManagerConfiguration {
                 specialArgs = {
                     inherit system;
                     inherit pkgs;

@@ -10,7 +10,10 @@
             inputs.nixpkgs.follows = "nixpkgs-stable";
         };
 
-	hyprland.url = "github:hyprwm/Hyprland";
+	hyprland = {
+	     url = "github:hyprwm/Hyprland";
+      	     inputs.aquamarine.url = "github:hyprwm/aquamarine";
+	};
     };
 
 

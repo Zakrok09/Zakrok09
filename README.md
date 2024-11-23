@@ -18,8 +18,6 @@ My name is Kiril Panayotov. I'm:
 
 Browse my nixos configuration included in this repo under the [nixos_config subfolder](./nixos_config).
 
----
-
 must read [Hristo Smirnenski—Tale of the stairs](https://www.slovo.bg/showwork.php3?AuID=386&WorkID=13571&Level=1)
 
 <details>

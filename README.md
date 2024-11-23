@@ -16,12 +16,7 @@ My name is Kiril Panayotov. I'm:
    - [uplot-wrappers](https://github.com/skalinichev/uplot-wrappers) - created the Svelte wrapper for uPlot
 - The actual leader of the Team Praxidike
 
-<details>
-<summary><h4>My NixOS configuration</h4></summary>
-
-   Browse my nixos configuration included in this repo under the [nixos_config subfolder](./nixos_config).
-   
-</details>
+Browse my nixos configuration included in this repo under the [nixos_config subfolder](./nixos_config).
 
 ---
 

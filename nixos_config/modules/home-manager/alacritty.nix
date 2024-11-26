@@ -40,11 +40,6 @@
                         mods = "Control";
                         action = "ResetFontSize";
                     }
-                    {
-                        key = "w";
-                        mods = "Control";
-                        action = "Quit";
-                    }
                 ];
             };
         };

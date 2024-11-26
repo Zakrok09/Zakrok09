@@ -5,18 +5,18 @@
     home = {
         username = "eccyboo";
         homeDirectory = "/home/eccyboo";
-        stateVersion = "24.05";
+        stateVersion = "24.11";
     };
 
     imports = [
         ../../modules/home-manager/gnome-manage.nix
         ../../modules/home-manager/alacritty.nix
+        ../../modules/home-manager/hyprland.nix
     ];
 
     home.packages = with stable; [
         # unstable
         pkgs.vscodium
-	    pkgs.gimp
 
         # non-work apps
         spotify
@@ -24,8 +24,10 @@
         discord
         telegram-desktop
         obsidian
-	    prismlauncher
-	    obs-studio
+
+        # rust
+        rustc
+        cargo
 
         # console utils
         tcpdump
@@ -51,7 +53,7 @@
             monospace = [ "JetBrainsMono" ];
         };
     };
-
+  
     programs = {
         direnv = {
             enable = true;
@@ -63,7 +65,7 @@
             enable = true;
             shellAliases = {
                 ll = "ls -l";
-                rebuild = "sudo nixos-rebuild switch --flake ~/zakrok_repo/nixos_config/flake.nix#default";
+                rebuild = "sudo nixos-rebuild switch --flake ~/zakrok_repo/nixos_config/flake.nix#laptop";
                 dockerb = "docker-compose up -d --build";
                 cds = "cd ~/zakrok_repo/nixos_config";
                 clear_garbage = "";

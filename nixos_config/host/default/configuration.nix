@@ -87,13 +87,23 @@
 	        jetbrains.rust-rover
             jetbrains-toolbox
             
+	        nodejs	    
+
             protonvpn-gui
             piper
+            rustup
+            rustc
+            cargo
+            gcc
+
+            stable.maven
+            stable.gradle
 
             # stable
             stable.librewolf
             stable.jdk20
             stable.home-manager
+	        stable.python3
         ];
     };
 
@@ -108,7 +118,7 @@
     # STEAM
 	programs.steam = {
         enable = true;
-        remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
+        remotePlay.openFirewall = false; # Open ports in the firewall for Steam Remote Play
         dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
         localNetworkGameTransfers.openFirewall = true; # Open ports in the firewall for Steam Local Network Game Transfers
 	};

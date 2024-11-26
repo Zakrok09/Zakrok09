@@ -16,6 +16,7 @@
     home.packages = with stable; [
         # unstable
         pkgs.vscodium
+	    pkgs.gimp
 
         # non-work apps
         spotify
@@ -23,10 +24,8 @@
         discord
         telegram-desktop
         obsidian
-
-        # rust
-        rustc
-        cargo
+	    prismlauncher
+	    obs-studio
 
         # console utils
         tcpdump
@@ -52,7 +51,7 @@
             monospace = [ "JetBrainsMono" ];
         };
     };
-  
+
     programs = {
         direnv = {
             enable = true;

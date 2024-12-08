@@ -110,11 +110,28 @@
         ];
     };
 
+    users.users.joan = {
+        isNormalUser = true;
+        description = "joan baban";
+        extraGroups = ["docker"];
+        packages = with pkgs; [
+            jetbrains.webstorm
+            jetbrains-toolbox
+
+            nodejs
+            gcc
+
+            stable.chromium
+            stable.home-manager
+        ];
+    };
+
     # home manager
     home-manager = {
         extraSpecialArgs = { inherit system inputs stable pkgs; };
         users = {
             "eccyboo" = import ./home.nix;
+            "joan" = import ./joan-home.nix;
         };
     };
 

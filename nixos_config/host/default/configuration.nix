@@ -75,6 +75,9 @@
         pulse.enable = true;
     };
 
+    # Enable Piper ratbagd
+    services.ratbagd.enable = true;
+
     # USER SETTING
     users.users.eccyboo = {
         isNormalUser = true;

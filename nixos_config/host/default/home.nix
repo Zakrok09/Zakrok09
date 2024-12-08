@@ -16,7 +16,7 @@
     home.packages = with stable; [
         # unstable
         pkgs.vscodium
-	    pkgs.gimp
+	pkgs.gimp
 
         # non-work apps
         spotify
@@ -24,8 +24,10 @@
         discord
         telegram-desktop
         obsidian
-	    prismlauncher
-	    obs-studio
+	prismlauncher
+	obs-studio
+	rhythmbox                                        # music player 
+	gnome-obfuscate
 
         # console utils
         tcpdump
@@ -68,6 +70,7 @@
                 cds = "cd ~/zakrok_repo/nixos_config";
                 clear_garbage = "";
                 clip = "xclip -sel clip";
+		gs = "git status";
             };
         };
 

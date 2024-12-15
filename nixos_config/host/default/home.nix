@@ -93,6 +93,7 @@
             };
         };
 
+        # sign this please
         git.includes.contents = {
             commit.gpgsign = true;
         };

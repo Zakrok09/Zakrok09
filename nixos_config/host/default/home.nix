@@ -93,7 +93,6 @@
             };
         };
 
-        # sign this please
         git = {
             enable=true;
             userName = "Zakrok09";

@@ -123,6 +123,7 @@
         direnv
         neofetch
         openssl
+	gpg
     ];
 
     system.stateVersion = "24.05";

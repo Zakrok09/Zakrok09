@@ -46,6 +46,34 @@
            };
        };
 
+	programs.waybar.settings = {
+		layer = "top";
+		position = "top";
+		height = 24;
+		spacing = 5;
+
+		modules-left = ["hyprland/workspaces" "group/usage"];
+		modules-center = ["clock"];
+		modules-right = ["wireplumber" "group/bat" "group/net" "tray"];
+		
+		"group/usage" = {
+			orientation = "horizontal";
+			modules = ["memory" "temperature"];
+		};
+
+		"group/bat" = {
+			orientation = "horizontal";
+			modules = ["battery" "backlight"];
+		};
+
+		"group/net" = {
+			orientation = "horizontal";
+			modules = ["hyprland/language" "network" "bluetooth"];
+		};
+
+		
+	};
+
         # cachix the hyprland build
 
         home.file = {

@@ -94,8 +94,19 @@
         };
 
         # sign this please
-        git.includes.contents = {
-            commit.gpgsign = true;
+        git = {
+            includes.contents = {
+                commit.gpgsign = true;
+            };
+            userName = "Zakrok09";
+            userEmail = "`31936449+Zakrok09@users.noreply.github.com";
+
+            extraConfig = {
+                # Sign all commits using ssh key
+                commit.gpgsign = true;
+                tag.gpgSign = true;
+                user.signingkey = "335EFF0AED90DA7E";
+            };
         };
     };
 

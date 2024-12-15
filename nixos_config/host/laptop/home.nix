@@ -14,6 +14,14 @@
         ../../modules/home-manager/hyprland.nix
     ];
 
+    services = {
+        gpg-agent = {
+            enable = true;
+            defaultCacheTtl = 1800;
+            enableSshSupport = true;
+        };
+    };
+
     home.packages = with stable; [
         # unstable
         pkgs.vscodium
@@ -70,6 +78,7 @@
                 cds = "cd ~/zakrok_repo/nixos_config";
                 clear_garbage = "";
                 clip = "xclip -sel clip";
+		        gs = "git status";
             };
         };
 

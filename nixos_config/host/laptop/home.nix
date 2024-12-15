@@ -95,11 +95,9 @@
 
         # sign this please
         git = {
-            includes.contents = {
-                commit.gpgsign = true;
-            };
+            enable=true;
             userName = "Zakrok09";
-            userEmail = "`31936449+Zakrok09@users.noreply.github.com";
+            userEmail = "31936449+Zakrok09@users.noreply.github.com";
 
             extraConfig = {
                 commit.gpgsign = true;

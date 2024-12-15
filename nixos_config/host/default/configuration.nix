@@ -75,6 +75,9 @@
         pulse.enable = true;
     };
 
+    # Enable Piper ratbagd
+    services.ratbagd.enable = true;
+
     # USER SETTING
     users.users.eccyboo = {
         isNormalUser = true;
@@ -87,12 +90,38 @@
 	        jetbrains.rust-rover
             jetbrains-toolbox
             
+	        nodejs	    
+
             protonvpn-gui
             piper
+            rustup
+            rustc
+            cargo
+            gcc
+
+            stable.maven
+            stable.gradle
 
             # stable
             stable.librewolf
             stable.jdk20
+            stable.home-manager
+	        stable.python3
+        ];
+    };
+
+    users.users.joan = {
+        isNormalUser = true;
+        description = "joan baban";
+        extraGroups = ["docker"];
+        packages = with pkgs; [
+            jetbrains.webstorm
+            jetbrains-toolbox
+
+            nodejs
+            gcc
+
+            stable.chromium
             stable.home-manager
         ];
     };
@@ -102,13 +131,14 @@
         extraSpecialArgs = { inherit system inputs stable pkgs; };
         users = {
             "eccyboo" = import ./home.nix;
+            "joan" = import ./joan-home.nix;
         };
     };
 
     # STEAM
 	programs.steam = {
         enable = true;
-        remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
+        remotePlay.openFirewall = false; # Open ports in the firewall for Steam Remote Play
         dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
         localNetworkGameTransfers.openFirewall = true; # Open ports in the firewall for Steam Local Network Game Transfers
 	};

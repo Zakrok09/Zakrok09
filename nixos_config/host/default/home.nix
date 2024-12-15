@@ -16,6 +16,7 @@
     home.packages = with stable; [
         # unstable
         pkgs.vscodium
+	pkgs.gimp
 
         # non-work apps
         spotify
@@ -23,10 +24,10 @@
         discord
         telegram-desktop
         obsidian
-
-        # rust
-        rustc
-        cargo
+	prismlauncher
+	obs-studio
+	rhythmbox                                        # music player 
+	gnome-obfuscate
 
         # console utils
         tcpdump
@@ -52,7 +53,7 @@
             monospace = [ "JetBrainsMono" ];
         };
     };
-  
+
     programs = {
         direnv = {
             enable = true;
@@ -69,6 +70,7 @@
                 cds = "cd ~/zakrok_repo/nixos_config";
                 clear_garbage = "";
                 clip = "xclip -sel clip";
+		gs = "git status";
             };
         };
 

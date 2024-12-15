@@ -83,7 +83,7 @@
             #unstable
             jetbrains.webstorm
             jetbrains.idea-ultimate
-	    jetbrains.rust-rover
+	        jetbrains.rust-rover
             jetbrains-toolbox
             
             protonvpn-gui
@@ -132,7 +132,6 @@
         direnv
         neofetch
         openssl
-	gpg
     ];
 
     system.stateVersion = "24.11";

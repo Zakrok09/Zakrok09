@@ -5,7 +5,7 @@
     services.xserver.desktopManager.gnome.enable = true;
     
     services.udev.packages = [ 
-        pkgs.gnome.gnome-settings-daemon 
+        pkgs.gnome-settings-daemon 
     ];
 
     environment.gnome.excludePackages = (with pkgs; [
@@ -14,7 +14,6 @@
         gnome-connections           #
         epiphany                    # web browser
         geary                       # email reader
-        evince                      # document viewer
     ]) ++ (with pkgs.gnome; [
         # for packages that are pkgs.gnome.*
     ]);

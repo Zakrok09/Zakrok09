@@ -13,5 +13,10 @@
             clip = "xclip -sel clip";
             gs = "git status";
         };
+        initExtra = ''
+            rebuild() {
+                sudo nixos-rebuild switch --flake ~/zakrok_repo/nixos_config#$1
+            }
+        '';
     };
 }

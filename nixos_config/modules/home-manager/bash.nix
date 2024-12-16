@@ -12,7 +12,7 @@
             gs = "git status";
             gpush = "git push -u origin main";
             gb = "git branch";
-            gac = "git add * && git commit"
+            gac = "git add * && git commit";
         };
         initExtra = ''
             rebuild() {

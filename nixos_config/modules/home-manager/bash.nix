@@ -5,7 +5,8 @@
         enable = true;
         shellAliases = {
             ll = "ls -l";
-            rebuild = "sudo nixos-rebuild switch --flake ~/zakrok_repo/nixos_config";
+            rebuild-default = "sudo nixos-rebuild switch --flake ~/zakrok_repo/nixos_config#default";
+            rebuild-laptop = "sudo nixos-rebuild switch --flake ~/zakrok_repo/nixos_config#laptop";
             dockerb = "docker-compose up -d --build";
             cds = "cd ~/zakrok_repo/nixos_config";
             clear_garbage = "";

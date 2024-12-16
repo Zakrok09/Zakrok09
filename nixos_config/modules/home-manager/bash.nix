@@ -10,6 +10,9 @@
             clear_garbage = "";
             clip = "xclip -sel clip";
             gs = "git status";
+            gpush = "git push -u origin main";
+            gb = "git branch";
+            gac = "git add * && git commit"
         };
         initExtra = ''
             rebuild() {

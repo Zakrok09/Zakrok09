@@ -3,17 +3,17 @@
 
     inputs = {
         nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-        nixpkgs-stable.url = "github:nixos/nixpkgs/nixos-24.05";
+        nixpkgs-stable.url = "github:nixos/nixpkgs/nixos-24.11";
 
         home-manager = {
-            url = "github:nix-community/home-manager/release-24.11";
-            inputs.nixpkgs.follows = "nixpkgs-stable";
+            url = "github:nix-community/home-manager/master";
+            inputs.nixpkgs.follows = "nixpkgs";
         };
 
-	hyprland = {
-	     url = "github:hyprwm/Hyprland";
-      	     inputs.aquamarine.url = "github:hyprwm/aquamarine";
-	};
+        hyprland = {
+            url = "github:hyprwm/Hyprland";
+            inputs.aquamarine.url = "github:hyprwm/aquamarine";
+        };
     };
 
 
@@ -59,20 +59,6 @@
                 modules = [
                     ./host/laptop/configuration.nix
                     inputs.home-manager.nixosModules.default
-                ];
-            };
-        };
-
-        homeConfigurations = {
-            eccyboo = home-manager.lib.homeManagerConfiguration {
-                specialArgs = {
-                    inherit system;
-                    inherit pkgs;
-                    inherit stable;   # pass it down the function
-                    inherit inputs;
-                };
-                modules = [
-                    ./host/laptop/home.nix
                 ];
             };
         };

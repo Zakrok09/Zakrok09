@@ -91,8 +91,6 @@
 
             # stable
             stable.librewolf
-            stable.jdk20
-            stable.home-manager
         ];
     };
 

@@ -5,7 +5,7 @@
     home = {
         username = "eccyboo";
         homeDirectory = "/home/eccyboo";
-        stateVersion = "24.11";
+        stateVersion = "25.05";
     };
 
     imports = [
@@ -24,9 +24,9 @@
     };
     programs.gpg.enable = true;
 
-    home.packages = with stable; [
-        # unstable
-        pkgs.vscodium
+    home.packages = with pkgs; [
+        # stable
+        vscodium
 
         # non-work apps
         spotify

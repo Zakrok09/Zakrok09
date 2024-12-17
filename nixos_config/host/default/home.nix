@@ -5,7 +5,7 @@
     home = {
         username = "eccyboo";
         homeDirectory = "/home/eccyboo";
-        stateVersion = "24.05";
+        stateVersion = "25.05";
     };
 
     imports = [
@@ -24,10 +24,10 @@
     };
     programs.gpg.enable = true;
 
-    home.packages = with stable; [
+    home.packages = with pkgs; [
         # unstable
-        pkgs.vscodium
-	    pkgs.gimp
+        vscodium
+	    gimp
 
         # non-work apps
         spotify
@@ -53,7 +53,7 @@
         slack
 
         # browsers
-        chromium
+        stable.chromium
 
         (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
     ];

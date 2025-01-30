@@ -87,10 +87,10 @@
             #unstable
             jetbrains.webstorm
             jetbrains.idea-ultimate
-	        jetbrains.rust-rover
+	    jetbrains.rust-rover
             jetbrains-toolbox
             
-	        nodejs	    
+	    nodejs	    
 
             protonvpn-gui
             piper
@@ -104,9 +104,9 @@
 
             # stable
             stable.librewolf
-            stable.jdk20
+            stable.jdk
             stable.home-manager
-	        stable.python3
+	    stable.python3
         ];
     };
 

@@ -90,7 +90,7 @@
                 # Sign all commits using ssh key
                 commit.gpgsign = true;
                 tag.gpgSign = true;
-                user.signingkey = "04237EDFB8269F3A";
+                user.signingkey = "86695D88CBBCCAEA";
             };
         };
     };

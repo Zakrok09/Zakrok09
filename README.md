@@ -8,12 +8,13 @@ My name is Kiril Panayotov. I'm:
 - doing academic research on: "Technical Debt analysis in the era of AI"
 - a Software Engineer:
    - Former intern at [Manometric](https://www.manometric.nl/en/).
-   - Developed Delft Hyperloop's Ground Station GUI and the [Serpenta Standard](https://github.com/delft-hyperloop/serpenta)
-   - Developed the CAIT (Community for AI Teachers) Forum 
+   - Developer of CAIT (Community for AI Teachers) at TU Delft. 
+   - Developed Delft Hyperloop's Ground Station GUI and the [Serpenta Standard](https://github.com/delft-hyperloop/serpenta) 
    - Developed the [website for Cargommaters](https://cargo-matters.com/en)
 - a contributor to: 
    - [Andy](https://github.com/SERG-Delft/andy) - added several checks and tests
    - [uplot-wrappers](https://github.com/skalinichev/uplot-wrappers) - created the Svelte wrapper for uPlot
+- a teaching assistant at TU Delft for the course Concept of Programming Languages.
 - The actual leader of the Team Praxidike
 
 Browse my nixos configuration included in this repo under the [nixos_config subfolder](./nixos_config).

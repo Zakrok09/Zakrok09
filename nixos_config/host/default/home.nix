@@ -25,9 +25,9 @@
     programs.gpg.enable = true;
 
     home.packages = with pkgs; [
-        # unstable
+	# work apps
         vscodium
-	    gimp
+	gimp
 
         # non-work apps
         spotify
@@ -44,10 +44,16 @@
         tcpdump
         xclip
         yt-dlp
+	tealdeer
 
         # dev tools
         doctl
         ngrok
+	qemu
+	quickemu
+	monero-gui
+	r2modman
+	wireshark-qt
         
         # work apps
         slack

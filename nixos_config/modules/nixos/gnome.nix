@@ -20,10 +20,16 @@
 
 
     # EXTENSIONS
-    environment.systemPackages = with pkgs.gnomeExtensions; [
-        vitals
-        clipboard-indicator
-        appindicator
+    environment.systemPackages = with pkgs; [
+        gnomeExtensions.vitals
+        gnomeExtensions.clipboard-indicator
+        gnomeExtensions.appindicator
+	nautilus
     ];
-
+    
+    # Alactricty in nautilus
+#    programs.nautilus-open-any-terminal = {
+#	enable = true;
+#	terminal = "alacritty";
+ #   };
 }

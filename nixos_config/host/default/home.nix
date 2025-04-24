@@ -27,7 +27,7 @@
     home.packages = with pkgs; [
 	# work apps
         vscodium
-	gimp
+	    gimp
 
         # non-work apps
         spotify

@@ -86,17 +86,14 @@
             jetbrains.idea-ultimate
 	        jetbrains.rust-rover
             jetbrains-toolbox
+
+            librewolf
+            home-manager
             
             protonvpn-gui
             piper
 
-            stable.maven
-            stable.gradle
-
             # stable
-	        stable.librewolf
-            stable.home-manager
-	        stable.python3
         ];
     };
 
@@ -114,7 +111,6 @@
         extraSpecialArgs = { inherit system inputs stable pkgs; };
         users = {
             "eccyboo" = import ./home.nix;
-            "joan" = import ./joan-home.nix;
         };
     };
 
@@ -137,9 +133,8 @@
         neofetch
         openssl
         gnupg
-	gcc
-	nodejs
-	stable.chromium
+        gcc
+        stable.chromium
     ];
 
     system.stateVersion = "25.05";

@@ -44,16 +44,14 @@
         tcpdump
         xclip
         yt-dlp
-	tealdeer
+	    tealdeer
 
         # dev tools
         doctl
-        ngrok
-	qemu
-	quickemu
-	monero-gui
-	r2modman
-	wireshark-qt
+	    qemu
+	    quickemu
+	    monero-cli
+	    wireshark-qt
         
         # work apps
         slack
@@ -61,7 +59,7 @@
         # browsers
         stable.chromium
 
-        (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+        #(nerd-fonts.override { fonts = [ "JetBrainsMono" ]; })
     ];
 
     fonts.fontconfig = {

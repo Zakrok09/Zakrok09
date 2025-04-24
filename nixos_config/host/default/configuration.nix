@@ -10,8 +10,6 @@
     # FLAKES
     nix.settings = {
         experimental-features = [ "nix-command" "flakes" ];
-        substituters = ["https://hyprland.cachix.org"];
-        trusted-public-keys = ["hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="];
     };
 
     environment.sessionVariables = {
@@ -86,26 +84,19 @@
             #unstable
             jetbrains.webstorm
             jetbrains.idea-ultimate
-	    jetbrains.rust-rover
+	        jetbrains.rust-rover
             jetbrains-toolbox
             
-	    nodejs	    
-
             protonvpn-gui
             piper
-            rustup
-            rustc
-            cargo
-            gcc
 
             stable.maven
             stable.gradle
 
             # stable
-            stable.librewolf
-            stable.jdk
+	        stable.librewolf
             stable.home-manager
-	    stable.python3
+	        stable.python3
         ];
     };
 
@@ -114,13 +105,6 @@
         description = "joan baban";
         extraGroups = ["docker"];
         packages = with pkgs; [
-            jetbrains.webstorm
-            jetbrains-toolbox
-
-            nodejs
-            gcc
-
-            stable.chromium
             stable.home-manager
         ];
     };
@@ -153,7 +137,10 @@
         neofetch
         openssl
         gnupg
+	gcc
+	nodejs
+	stable.chromium
     ];
 
-    system.stateVersion = "24.11";
+    system.stateVersion = "25.05";
 }

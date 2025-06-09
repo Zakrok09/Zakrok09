@@ -62,12 +62,12 @@
         #(nerd-fonts.override { fonts = [ "JetBrainsMono" ]; })
     ];
 
-    fonts.fontconfig = {
-        enable = true;
-        defaultFonts = {
-            monospace = [ "JetBrainsMono" ];
-        };
-    };
+#    fonts.fontconfig = {
+ #       enable = true;
+  #      defaultFonts = {
+   #         monospace = [ "JetBrainsMono" ];
+   #     };
+   # };
 
     programs = {
         direnv = {

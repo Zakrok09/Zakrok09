@@ -82,15 +82,10 @@
         extraGroups = [ "networkmanager" "wheel" "docker" ];
         packages = with pkgs; [
             #unstable
-            jetbrains.webstorm
-            jetbrains.idea-ultimate
-	        jetbrains.rust-rover
             jetbrains-toolbox
 
             librewolf
             home-manager
-            
-            protonvpn-gui
             piper
 
             # stable

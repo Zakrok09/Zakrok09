@@ -4,13 +4,13 @@ email: [contact@zakrok.dev](mailto::contact@zakrok.dev)
 
 My name is Kiril Panayotov. I'm:
 
-- TU Delft CSE Honours Student - Year 3
-- doing academic research on: "Technical Debt analysis in the era of AI"
+- TU Delft CSE Bachelor's Graduate
+- (will do masters)
 - a Software Engineer:
+   - Intern at JetBrains
    - Former intern at [Manometric](https://www.manometric.nl/en/).
-   - Developer of CAIT (Community for AI Teachers) at TU Delft. 
+   - Former active developer of CAIT (Community for AI Teachers) at TU Delft. 
    - Developed Delft Hyperloop's Ground Station GUI and the [Serpenta Standard](https://github.com/delft-hyperloop/serpenta) 
-   - Developed the [website for Cargommaters](https://cargo-matters.com/en)
 - a contributor to: 
    - [Andy](https://github.com/SERG-Delft/andy) - added several checks and tests
    - [uplot-wrappers](https://github.com/skalinichev/uplot-wrappers) - created the Svelte wrapper for uPlot

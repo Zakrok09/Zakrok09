@@ -4,8 +4,7 @@ email: [contact@zakrok.dev](mailto::contact@zakrok.dev)
 
 My name is Kiril Panayotov. I'm:
 
-- TU Delft CSE Bachelor's Graduate
-- (will do masters)
+- TU Delft CSE Masters (BcH graduate)
 - a Software Engineer:
    - Intern at JetBrains
    - Former intern at Manometric.

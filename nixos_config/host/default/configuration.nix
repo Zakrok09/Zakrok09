@@ -10,6 +10,16 @@
     # FLAKES
     nix.settings = {
         experimental-features = [ "nix-command" "flakes" ];
+        substituters = ["https://hyprland.cachix.org"];
+        trusted-substituters = ["https://hyprland.cachix.org"];
+        trusted-public-keys = ["hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="];
+    };
+   
+    # HYPRLAND
+    programs.hyprland = {
+        enable = true;
+        package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
+        portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
     };
 
     environment.sessionVariables = {
@@ -26,7 +36,9 @@
     nixpkgs.config = {
         allowUnsupportedSystem = true;
     };
-
+   
+    # running unpatchd dynamic binaries
+    programs.nix-ld.enable = true;
 
     # Bootloader.
     boot.loader.systemd-boot = {
@@ -61,6 +73,7 @@
 
     # Enable CUPS to print documents.
     services.printing.enable = true;
+    services.smartd.enable = true;
 
     # Enable sound with pipewire.
     hardware.pulseaudio.enable = false;
@@ -108,7 +121,12 @@
             "eccyboo" = import ./home.nix;
         };
     };
+	
+    fonts.packages = with pkgs; [
+        jetbrains-mono
+    ];
 
+ 
     # STEAM
 	programs.steam = {
         enable = true;
@@ -129,6 +147,8 @@
         openssl
         gnupg
         gcc
+        kitty
+	
         stable.chromium
     ];
 

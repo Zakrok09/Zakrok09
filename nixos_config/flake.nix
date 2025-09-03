@@ -10,15 +10,12 @@
             inputs.nixpkgs.follows = "nixpkgs";
         };
 
-        hyprland = {
-            url = "github:hyprwm/Hyprland";
-            inputs.aquamarine.url = "github:hyprwm/aquamarine";
-        };
+        hyprland.url = "github:hyprwm/Hyprland";
     };
 
 
     # outputs
-    outputs = { self, nixpkgs, nixpkgs-stable, home-manager, hyprland, ...}@inputs:
+    outputs = { self, nixpkgs, nixpkgs-stable, home-manager, ...}@inputs:
     let
         system = "x86_64-linux";
 

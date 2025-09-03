@@ -10,13 +10,6 @@
         alacritty = {
             enable = true;
             settings = {
-                font = {
-                    normal = {
-                        family = "JetBrainsMono Nerd Font";
-                        style = "Regular";
-                    };
-                };
-
                 window = {
                     opacity = 0.9;
                 };

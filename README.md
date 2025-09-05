@@ -5,18 +5,17 @@ email: [contact@zakrok.dev](mailto::contact@zakrok.dev)
 My name is Kiril Panayotov. I'm:
 
 - TU Delft CSE Masters (BcH graduate)
-- a Software Engineer:
-   - Intern at JetBrains
-   - Former intern at Manometric.
-   - Former active developer of CAIT (Community for AI Teachers) at TU Delft. 
-   - Developed Delft Hyperloop's Ground Station GUI and the [Serpenta Standard](https://github.com/delft-hyperloop/serpenta) 
+- an intern at WebStorm, JetBrains
+- developer of Delft Hyperloop's Ground Station GUI and the [Serpenta Standard](https://github.com/delft-hyperloop/serpenta)
 - a contributor to: 
    - [Andy](https://github.com/SERG-Delft/andy) - added several checks and tests
    - [uplot-wrappers](https://github.com/skalinichev/uplot-wrappers) - created the Svelte wrapper for uPlot
 - a teaching assistant at TU Delft for the course Concept of Programming Languages.
-- The actual leader of the Team Praxidike
+- the actual leader of the Team Praxidike
 
-Browse my nixos configuration included in this repo under the [nixos_config subfolder](./nixos_config).
+For past employments and my CV, please visit [my online portfolio](https://zakrok.dev)
+
+Browse my nixos and home manager dotfiles configurations included in this repo under the [nixos_config subfolder](./nixos_config).
 
 [Hristo Smirnenski—Tale of the stairs](./tale_of_the_stairs.md)
 
